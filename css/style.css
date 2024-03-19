@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Patrick+Hand&display=swap');
+header{
+
+    background-color: bisque;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height:    50vh;
+    width:     100%;
+    background-image: url("../image/fond%20nourri.jpg");
+           
+
+}
+article{
+    background-color: white;
+    width: 40ch;
+    padding: 10px;
+    border:10px solid white;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px black;
+    transform: rotate(-2deg);   
+}
+
+section{
+    border: 2px solid white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: coral;
+}
+
+h1{
+    background-color: aliceblue;
+    width: 350px;
+    border: 2px dotted;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    
+}
+h2{
+    flex-basis: 100%;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: bold;
+    border:10px solid white;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px black;
+    transform: rotate(-2deg);
+    background-color: white;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+img{
+    border:10px solid white;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px black;
+    transform: rotate(-2deg);
+}
+h3{
+ font-family: 'Amatic SC', cursive;
+ text-align: justify;
+}
+ul{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Patrick Hand', cursive;
+}
+article li{
+    text-align: justify;
+}
+ol{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Patrick Hand', cursive;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav > ul > li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: orangered;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: coral;
+    font-size: 25px;
+}
+
+nav{
+  background-color:white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: sticky;
+  top:0px;
+  font-size: 22px;
+
+  z-index: 9999;
+}
+
+h4{
+    font-family: 'Amatic SC', cursive;
+    text-align: justify;
+}
+
+
+section:nth-child{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer{
+    text-align: center;
+}
